@@ -1,0 +1,46 @@
+div.container{
+    background: rgba(15,15,15,0.08);
+    width: 100%;
+}
+
+img.portrait {
+    height: 168px;
+    width: 168px;
+    top: -59px;
+    position: relative;
+}
+
+img.cover{
+    height: 240px;
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+div.Card{
+    background: #ffffff;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.CardHeader {
+    height: 240px;
+    width: 100%;
+}
+
+div.CardMain {
+    width: 100%;
+}
+
+div.portrait{
+    width: 168px;
+    height: 168px;
+    top: -20px;
+    background: #1a1a1a;
+    border: 4px solid #fff;
+    border-radius: 8px;
+    position: relative;
+}
+
+
+

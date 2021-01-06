@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+
+    <named-config name="testc3p0">
+
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+<!--        3306/后跟数据库的名称，serverTimezone必须要加，否则会报错(版本问题)-->
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/Relationship?serverTimezone=UTC</property>
+<!--        用户名和密码-->
+        <property name="user">root</property>
+        <property name="password">123456</property>
+
+        <property name="acquireIncrement">50</property>
+        <property name="initialPoolSize">50</property>
+        <property name="maxPoolSize">100</property>
+        <property name="minPoolSize">50</property>
+
+    </named-config>
+
+</c3p0-config>
